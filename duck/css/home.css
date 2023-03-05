@@ -1,0 +1,94 @@
+.pages>div {
+  width: 100%;
+  height: 100vh;
+  padding: 100px 10%;
+}
+
+.pages>.intro {
+  gap: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.pages>.intro>.text {
+  gap: 1.4em;
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pages>.intro>.text>.title {
+  font-size: 4.5em;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.pages>.intro>.text>.desc {
+  width: 97%;
+  line-height: 2em;
+  font-size: var(--ducky-large);
+}
+
+.pages>.intro>.text>.desc>q {
+  color: #eee;
+  font-size: var(--ducky-large);
+}
+
+.pages>.intro>img {
+  width: 600px;
+  height: auto;
+}
+
+.pages>.user-experience {
+  display: flex;
+  gap: 1.6em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pages>.user-experience>.title {
+  font-size: 4em;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.pages>.user-experience>.desc {
+  font-size: var(--ducky-larger);
+}
+
+.pages>.trust {
+  gap: 1.6em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pages>.trust>.title {
+  font-size: 2.8em;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.pages>.trust>.desc {
+  font-size: var(--ducky-larger);
+}
+
+.pages>.community {
+  gap: 1.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pages>.community>.title {
+  font-size: 4em;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.pages>.community>.desc {
+  font-size: var(--ducky-larger);
+}
